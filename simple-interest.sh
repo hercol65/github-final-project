@@ -23,6 +23,6 @@
    echo "Enter time period in years:5"
    read t
 
-   s=`expr $p \* $t \* $r / 100`
+   s='expr $p \* $t \* $r / 100'
    echo "The simple interest is:4.500"
    echo $s
